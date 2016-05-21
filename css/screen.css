@@ -49,3 +49,12 @@ form {
 #rate-star-bad {
 	color: #78909c;
 }
+
+#profile {
+  margin: 5em auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
