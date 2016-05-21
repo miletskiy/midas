@@ -68,11 +68,11 @@ form {
 	margin-top: 2px;
 }
 
-/*@media (max-width:300px) {
+@media only screen and (max-width: 640px) {
 	.rate-stars-icons {
-		width: 75%;
+		width: 75% !important;
 	}
 	.rate-stars-text {
-		width: 25%;
+		width: 25% !important;
 	}
-}*/
+}
