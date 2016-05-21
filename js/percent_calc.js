@@ -23,6 +23,10 @@ $(document).ready(function() {
         your_get_span.text(0)
         your_return_span.text(0)
       }
+
+      if (how_much < 0) {
+        how_much_input.val(0)
+      }
    });
 
    $('input:radio').change(
