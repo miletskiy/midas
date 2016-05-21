@@ -20,9 +20,6 @@ form {
 #how_much {
 	width: 50px;
 }
-.btn {
-	float: right;
-}
 .checkboxes {
 	margin-left: 20px;
 }
@@ -35,11 +32,6 @@ form {
   bottom: 0;
   right: 0;
   width: 10em;
-}
-
-#creditor-button {
-	height: 10px;
-	margin: 1em;
 }
 
 .pull-right {
