@@ -11,4 +11,5 @@ $(document).ready(function() {
           Materialize.toast('Declined.', 4000);
       }
   })
+  $('.modal-trigger').leanModal();
 });
