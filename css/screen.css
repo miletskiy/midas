@@ -8,7 +8,10 @@ body {
 	color: #424242;
 	text-align: center;
 }
-
+.btn-flat {
+	float: right;
+	padding-right: 10px;
+}
 form {
 	width: 50%;
 	margin: 0 auto;
