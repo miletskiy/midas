@@ -48,9 +48,21 @@
       <p>
         Total: {{ .. }}
       </p>
+      <p>
+        Don't forget, set the reminder:<br>
+        <div class="checkboxes">
+        <input type="checkbox" id="reminder_email"/>
+        <label for="reminder_email">Email</label><br>
+        <input type="checkbox" id="reminder_calendar"/>  
+        <label for="reminder_calendar">Calendar</label><br>
+        <input type="checkbox" id="reminder_phone"/>  
+        <label for="reminder_phone">Phone message</label>
+        </div>
+      </p>
+      <a class="waves-effect waves-teal btn-flat">Cancel</a>
       <button class="btn waves-effect waves-light" type="submit" name="action">Submit
-    <i class="material-icons right">send</i>
-  </button>
+        <i class="material-icons right">send</i>
+      </button>
   </form>
     </form>
     <!-- End Container -->
