@@ -8,3 +8,17 @@ body {
 	color: #ffab00;
 	text-align: center;
 }
+form {
+	width: 50%;
+	margin: 0 auto;
+	font-size: 16pt;
+}
+#how_much {
+	width: 50px;
+}
+.btn {
+	float: right;
+}
+.checkboxes {
+	margin-left: 20px;
+}
