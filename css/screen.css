@@ -14,3 +14,12 @@ body {
 	position: relative;
 	left: 44%;
 }
+
+#creditor-button {
+	height: 10px;
+	margin: 1em;
+}
+
+.pull-right {
+	float: right;
+}
