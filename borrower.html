@@ -18,12 +18,13 @@
 
 <body class="lime lighten-5">
 
-  <!-- Start Container -->
+  <!-- sStart Container -->
   <div class="mainContainer">
 
     <!-- Header -->
     <div class="row" id="header">
       <div class="col s12">
+        <a class="btn waves-effect pull-right" href="borrower_profile.html"><i class="material-icons left">account_box</i> Profile</a>
         <h1 class="main-test-logo">Get money</h1>
       </div>
     </div>
@@ -72,9 +73,19 @@
         </div>
       </p>
       <a class="waves-effect waves-teal btn-flat" href="index.html">Cancel</a>
-      <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+      <button class="btn waves-effect waves-light modal-trigger-application-submitted" type="submit" href="#submit" name="action">Submit
         <i class="material-icons right">send</i>
       </button>
+      <div id="submit" class="modal modal-application-submitted">
+        <div class="modal-content">
+          <h4>Thanks!</h4>
+          <p>Your application is reviewed.</p>
+          <p>You will receive notification.</p>
+        </div>
+        <div class="modal-footer">
+          <a href="borrower_profile.html" class=" modal-action modal-close waves-effect waves-green btn-flat">OK</a>
+        </div>
+      </div>
   </form>
     </form>
     <!-- End Container -->
