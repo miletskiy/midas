@@ -38,6 +38,11 @@ form {
 	float: right;
 }
 
+.application-row {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+
 #borrower-profile-form .btn {
 	font-size: 10pt;
 }
