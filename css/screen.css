@@ -63,3 +63,7 @@ form {
   bottom: 0;
   right: 0;
 }
+
+#borrower-money-buttons a {
+	margin-top: 2px;
+}
