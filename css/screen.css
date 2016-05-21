@@ -11,8 +11,13 @@ body {
 
 
 #get-money-button {
-	position: relative;
-	left: 44%;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 15%;
 }
 
 #creditor-button {
