@@ -55,14 +55,6 @@ form {
 	color: #78909c;
 }
 
-#profile {
-  margin: 5em auto;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-}
 
 #borrower-money-buttons a {
 	margin-top: 2px;
@@ -83,4 +75,9 @@ form {
 	.rate-stars-text {
 		width: 20% !important;
 	}
+}
+
+.center-container {
+    max-width: 786px;
+    margin: 0 auto;
 }
