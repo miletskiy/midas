@@ -76,3 +76,12 @@ form {
 		width: 20% !important;
 	}
 }
+#order_book {
+	margin: 5em auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 60%;
+}
