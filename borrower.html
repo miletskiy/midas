@@ -40,7 +40,7 @@
       </p>
       <p>
       How much:
-        <input name="get_money" type="text" id="how_much" />
+        <input name="get_money" type="number" id="how_much" />
       </p>
       <p>
       Period:
@@ -56,10 +56,10 @@
         <label for="year">1 year</label>
       </p>
       <p>
-        Your get: {{ .. }}
+        Your get: <span id="your-get">0</span>
       </p>
       <p>
-        Your Return: {{ .. }}
+        Your Return: <span id="your-return">0</span>
       </p>
       <p>
         Don't forget, set the reminder:<br>
@@ -97,6 +97,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
 
   <script src="js/main.js"></script>
+  <script src="js/percent_calc.js"></script>
 </body>
 
 </html>
