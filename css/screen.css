@@ -62,3 +62,12 @@ form {
 #borrower-money-buttons a {
 	margin-top: 2px;
 }
+
+/*@media (max-width:300px) {
+	.rate-stars-icons {
+		width: 75%;
+	}
+	.rate-stars-text {
+		width: 25%;
+	}
+}*/
