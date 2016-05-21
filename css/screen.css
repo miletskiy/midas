@@ -1,3 +1,17 @@
 h1 {
-	color: red;
+	text-align: center;
+}
+#id_indicator {
+	display: none;
+}
+#content-columns {
+	margin-top: 120px;
+}
+.left-column {
+	float:left;
+	margin-left: 20%;
+}
+.right-column {
+	float:right;
+	margin-right: 20%;
 }
