@@ -5,6 +5,12 @@ body {
 }
 
 .main-test-logo {
-	color: #ffab00;
+	color: #424242;
 	text-align: center;
+}
+
+
+#get-money-button {
+	position: relative;
+	left: 44%;
 }
