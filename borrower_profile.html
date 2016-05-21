@@ -26,7 +26,7 @@
         <div class="col s12">
             <ul class="tabs">
                 <li class="tab col 4">
-                    <a class="active" href="#stats">Stats</a>
+                    <a class="active" href="#profile">Profile</a>
                 </li>
                 <li class="tab col 4">
                     <a href="#applicatons">Applications</a>
@@ -39,19 +39,70 @@
     </div>
 
     <div class="row">
-        <div id="stats" class="col s12 m6">
+        <div id="profile" class="col s12 m6">
+            <h3>Profile informations</h3>
+            <form class="col s12" id="borrower-profile-form">
+                <div class="input-field col s6">
+                    <i class="material-icons prefix">account_circle</i>
+                    <input placeholder="Placeholder" id="first_name" type="text" class="validate" value="Alexander Vielimchanitsia">
+                    <label for="first_name">Facebook name:</label>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix">payment</i>
+                        <input id="wallet" type="text" class="validate" value="1F1tAaz5x1HUXrCNLbtMDqcw6o5GNn4123">
+                        <label for="wallet">Wallet</label>
+                    </div>
+                </div>
+                <div class="file-field input-field">
+                  <div class="btn">
+                    <span>Upload ID</span>
+                    <input type="file">
+                  </div>
+                  <div class="file-path-wrapper">
+                    <input class="file-path validate" type="text">
+                  </div>
+                </div>
+                <div class="file-field input-field">
+                  <div class="btn">
+                    <span>Upload Video</span>
+                    <input type="file">
+                  </div>
+                  <div class="file-path-wrapper">
+                    <input class="file-path validate" type="text">
+                  </div>
+                </div>
+                <button class="btn waves-effect waves-teal" type="submit" name="action">Save
+                    <i class="material-icons right">done</i>
+                </button>
+                <a class="waves-effect waves-light btn" href="index.html">
+                <i class="material-icons left">replay</i>
+                Back
+                </a>
+            </form>
             <h3>My statistics</h3>
             <div class="col s12">
-                <p class="col s8">Total deposit:</p>
-                <p class="col s4">100 BTC</p>
+                <p class="col s7">
+                Rate:
+                </p>
+                <p class="col s5"><i class="material-icons left">grade</i>
+                <i class="material-icons left">grade</i>
+                <i class="material-icons left">grade</i>
+                <i class="material-icons left">grade</i>
+                <i class="material-icons left" id="rate-star-bad">grade</i>
+                99%</p>
             </div>
             <div class="col s12">
-                <p class="col s8">Borrowed:</p>
-                <p class="col s4">10 BTC</p>
+                <p class="col s7">Total deposit:</p>
+                <p class="col s5">100 BTC</p>
             </div>
             <div class="col s12">
-                <p class="col s8">Expected to receive:</p>
-                <p class="col s4">11 BTC</p>
+                <p class="col s7">Borrowed:</p>
+                <p class="col s5">10 BTC</p>
+            </div>
+            <div class="col s12">
+                <p class="col s7">Expected to receive:</p>
+                <p class="col s5">11 BTC</p>
             </div>
         </div>
         <div id="applicatons" class="col s12">

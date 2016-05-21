@@ -37,3 +37,15 @@ form {
 .pull-right {
 	float: right;
 }
+
+#borrower-profile-form .btn {
+	font-size: 10pt;
+}
+#borrower-profile-form button,
+#borrower-profile-form a {
+	float: right;
+	margin-right: 2px;
+}
+#rate-star-bad {
+	color: #78909c;
+}
