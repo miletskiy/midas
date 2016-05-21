@@ -68,7 +68,15 @@ form {
 	margin-top: 2px;
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 1168px) {
+	.rate-stars-icons {
+		width: 70% !important;
+	}
+	.rate-stars-text {
+		width: 30% !important;
+	}
+}
+@media only screen and (max-width: 1048px) {
 	.rate-stars-icons {
 		width: 80% !important;
 	}
@@ -85,3 +93,4 @@ form {
   right: 0;
   width: 60%;
 }
+
