@@ -39,203 +39,209 @@
     </div>
 
     <div class="row">
-        <div id="profile" class="col s12 m6">
-            <h3>Profile informations</h3>
-            <form class="col s12" id="borrower-profile-form">
-                <div class="row">
-                    <div class="input-field col s12">
-                        <i class="material-icons prefix">payment</i>
-                        <input id="wallet" type="text" class="validate" value="17bbEgzEURaLHnGXibgPrT3NZhijmT9AHq">
-                        <label for="wallet">Wallet</label>
+        <div id="profile" class="col s12">
+            <div class="center-container">
+                <h3>Profile informations</h3>
+                <form class="col s12" id="borrower-profile-form">
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix">payment</i>
+                            <input id="wallet" type="text" class="validate" value="17bbEgzEURaLHnGXibgPrT3NZhijmT9AHq">
+                            <label for="wallet">Wallet</label>
+                        </div>
                     </div>
+                    <button class="btn waves-effect waves-teal" type="submit" name="action">Save
+                        <i class="material-icons right">done</i>
+                    </button>
+                    <a class="waves-effect waves-light btn" href="index.html">
+                        <i class="material-icons left">replay</i>
+                        Back
+                    </a>
+                </form>
+                <h3>My statistics</h3>
+                <div class="col s12">
+                    <p class="col s7 rate-stars-text">
+                    Rate:
+                    </p>
+                    <p class="col s5 rate-stars-icons"><i class="material-icons left">grade</i>
+                    <i class="material-icons left">grade</i>
+                    <i class="material-icons left">grade</i>
+                    <i class="material-icons left">grade</i>
+                    <i class="material-icons left" id="rate-star-bad">grade</i>
+                    99%</p>
                 </div>
-                <button class="btn waves-effect waves-teal" type="submit" name="action">Save
-                    <i class="material-icons right">done</i>
-                </button>
-                <a class="waves-effect waves-light btn" href="index.html">
-                    <i class="material-icons left">replay</i>
-                    Back
-                </a>
-            </form>
-            <h3>My statistics</h3>
-            <div class="col s12">
-                <p class="col s7 rate-stars-text">
-                Rate:
-                </p>
-                <p class="col s5 rate-stars-icons"><i class="material-icons left">grade</i>
-                <i class="material-icons left">grade</i>
-                <i class="material-icons left">grade</i>
-                <i class="material-icons left">grade</i>
-                <i class="material-icons left" id="rate-star-bad">grade</i>
-                99%</p>
-            </div>
-            <div class="col s12">
-                <p class="col s7">Total deposit:</p>
-                <p class="col s5">100 BTC</p>
-            </div>
-            <div class="col s12">
-                <p class="col s7">Lended out:</p>
-                <p class="col s5">42 BTC</p>
-            </div>
-            <div class="col s12">
-                <p class="col s7">Amount to receive:</p>
-                <p class="col s5">50 BTC</p>
-            </div>
-            <div class="col s12">
-                <p class="col s7">Borrowed:</p>
-                <p class="col s5">100 BTC</p>
-            </div>
-            <div class="col s12">
-                <p class="col s7">Amount to repay:</p>
-                <p class="col s5">110 BTC</p>
-            </div>
-            <div class="col s12" id="borrower-money-buttons">
-                <a class="waves-effect waves-light btn" href="index.html">
-                    <i class="material-icons left">play_for_work</i>
-                    Deposit
-                </a>
-                <a class="waves-effect waves-light btn" href="index.html">
-                    <i class="material-icons left">present_to_all</i>
-                    Withdrow
-                </a>
+                <div class="col s12">
+                    <p class="col s7">Total deposit:</p>
+                    <p class="col s5">100 BTC</p>
+                </div>
+                <div class="col s12">
+                    <p class="col s7">Lended out:</p>
+                    <p class="col s5">42 BTC</p>
+                </div>
+                <div class="col s12">
+                    <p class="col s7">Amount to receive:</p>
+                    <p class="col s5">50 BTC</p>
+                </div>
+                <div class="col s12">
+                    <p class="col s7">Borrowed:</p>
+                    <p class="col s5">100 BTC</p>
+                </div>
+                <div class="col s12">
+                    <p class="col s7">Amount to repay:</p>
+                    <p class="col s5">110 BTC</p>
+                </div>
+                <div class="col s12" id="borrower-money-buttons">
+                    <a class="waves-effect waves-light btn" href="index.html">
+                        <i class="material-icons left">play_for_work</i>
+                        Deposit
+                    </a>
+                    <a class="waves-effect waves-light btn" href="index.html">
+                        <i class="material-icons left">present_to_all</i>
+                        Withdrow
+                    </a>
+                </div>
             </div>
         </div>
         <div id="applications" class="col s12">
-            <h3>Available aplications</h3>
-            <div id="application-1" class="card">
-                <div class="row application-row">
-                    <div class="col s2">
-                        <img class="responsive-img" src="img/no-photo.jpg">
-                    </div>
-                    <div class="col s5 m7">
-                        <p class="card-title">John Smith</p>
-                        <div class="card-content">
-                            <p>Want to travel Canana</p>
+            <div class="center-container">
+                <h3>Available aplications</h3>
+                <div id="application-1" class="card">
+                    <div class="row application-row">
+                        <div class="col s2">
+                            <img class="responsive-img" src="img/no-photo.jpg">
                         </div>
-                    </div>
-                    <div class="col s5 m3">
-                        <p class="card-title">Rating: 980</p>
-                        <h4>100BTC <small>&nbsp;+10BTC</small></h4>
-                        <p>2 days</p>
-                    </div>
-                    <div class="col s12 buttons center-align">
-                        <a class="btn-modal-accept waves-effect waves-light btn green accent-4" href="#modal_accept"><i class="material-icons left">done</i> Accept</a>
-                        <a class="btn-modal-decline waves-effect waves-light btn red accent-2" href="#modal_decline"><i class="material-icons left">delete_forever</i> Decline</a>
+                        <div class="col s5 m7">
+                            <p class="card-title">John Smith</p>
+                            <div class="card-content">
+                                <p>Want to travel Canana</p>
+                            </div>
+                        </div>
+                        <div class="col s5 m3">
+                            <p class="card-title">Rating: 980</p>
+                            <h4>100BTC <small>&nbsp;+10BTC</small></h4>
+                            <p>2 days</p>
+                        </div>
+                        <div class="col s12 buttons center-align">
+                            <a class="btn-modal-accept waves-effect waves-light btn green accent-4" href="#modal_accept"><i class="material-icons left">done</i> Accept</a>
+                            <a class="btn-modal-decline waves-effect waves-light btn red accent-2" href="#modal_decline"><i class="material-icons left">delete_forever</i> Decline</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div id="application-2" class="card">
-                <div class="row application-row">
-                    <div class="col s2">
-                        <img class="responsive-img" src="img/no-photo.jpg">
-                    </div>
-                    <div class="col s5 m7">
-                        <p class="card-title">Peter Norton</p>
-                        <div class="card-content">
-                            <p>Want to live forewer!</p>
+                <div id="application-2" class="card">
+                    <div class="row application-row">
+                        <div class="col s2">
+                            <img class="responsive-img" src="img/no-photo.jpg">
                         </div>
-                    </div>
-                    <div class="col s5 m3">
-                        <p class="card-title">Rating: 975</p>
-                        <h4>90BTC <small>&nbsp;+7BTC</small></h4>
-                        <p>3 month</p>
-                    </div>
-                    <div class="col s12 buttons center-align">
-                        <a class="btn-modal-accept waves-effect waves-light btn green accent-4" href="#modal_accept"><i class="material-icons left">done</i> Accept</a>
-                        <a class="btn-modal-decline waves-effect waves-light btn red accent-2" href="#modal_decline"><i class="material-icons left">delete_forever</i> Decline</a>
+                        <div class="col s5 m7">
+                            <p class="card-title">Peter Norton</p>
+                            <div class="card-content">
+                                <p>Want to live forewer!</p>
+                            </div>
+                        </div>
+                        <div class="col s5 m3">
+                            <p class="card-title">Rating: 975</p>
+                            <h4>90BTC <small>&nbsp;+7BTC</small></h4>
+                            <p>3 month</p>
+                        </div>
+                        <div class="col s12 buttons center-align">
+                            <a class="btn-modal-accept waves-effect waves-light btn green accent-4" href="#modal_accept"><i class="material-icons left">done</i> Accept</a>
+                            <a class="btn-modal-decline waves-effect waves-light btn red accent-2" href="#modal_decline"><i class="material-icons left">delete_forever</i> Decline</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div id="application-1" class="card">
-                <div class="row application-row">
-                    <div class="col s2">
-                        <img class="responsive-img" src="img/no-photo.jpg">
-                    </div>
-                    <div class="col s5 m7">
-                        <p class="card-title">John Smith</p>
-                        <div class="card-content">
-                            <p>Want to travel Canana</p>
+                <div id="application-1" class="card">
+                    <div class="row application-row">
+                        <div class="col s2">
+                            <img class="responsive-img" src="img/no-photo.jpg">
                         </div>
-                    </div>
-                    <div class="col s5 m3">
-                        <p class="card-title">Rating: 980</p>
-                        <h4>100BTC <small>&nbsp;+10BTC</small></h4>
-                        <p>2 days</p>
-                    </div>
-                    <div class="col s12 buttons center-align">
-                        <a class="btn-modal-accept waves-effect waves-light btn green accent-4" href="#modal_accept"><i class="material-icons left">done</i> Accept</a>
-                        <a class="btn-modal-decline waves-effect waves-light btn red accent-2" href="#modal_decline"><i class="material-icons left">delete_forever</i> Decline</a>
+                        <div class="col s5 m7">
+                            <p class="card-title">John Smith</p>
+                            <div class="card-content">
+                                <p>Want to travel Canana</p>
+                            </div>
+                        </div>
+                        <div class="col s5 m3">
+                            <p class="card-title">Rating: 980</p>
+                            <h4>100BTC <small>&nbsp;+10BTC</small></h4>
+                            <p>2 days</p>
+                        </div>
+                        <div class="col s12 buttons center-align">
+                            <a class="btn-modal-accept waves-effect waves-light btn green accent-4" href="#modal_accept"><i class="material-icons left">done</i> Accept</a>
+                            <a class="btn-modal-decline waves-effect waves-light btn red accent-2" href="#modal_decline"><i class="material-icons left">delete_forever</i> Decline</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div id="application-2" class="card">
-                <div class="row application-row">
-                    <div class="col s2">
-                        <img class="responsive-img" src="img/no-photo.jpg">
-                    </div>
-                    <div class="col s5 m7">
-                        <p class="card-title">Peter Norton</p>
-                        <div class="card-content">
-                            <p>Want to live forewer!</p>
+                <div id="application-2" class="card">
+                    <div class="row application-row">
+                        <div class="col s2">
+                            <img class="responsive-img" src="img/no-photo.jpg">
                         </div>
-                    </div>
-                    <div class="col s5 m3">
-                        <p class="card-title">Rating: 975</p>
-                        <h4>90BTC <small>&nbsp;+7BTC</small></h4>
-                        <p>3 month</p>
-                    </div>
-                    <div class="col s12 buttons center-align">
-                        <a class="btn-modal-accept waves-effect waves-light btn green accent-4" href="#modal_accept"><i class="material-icons left">done</i> Accept</a>
-                        <a class="btn-modal-decline waves-effect waves-light btn red accent-2" href="#modal_decline"><i class="material-icons left">delete_forever</i> Decline</a>
+                        <div class="col s5 m7">
+                            <p class="card-title">Peter Norton</p>
+                            <div class="card-content">
+                                <p>Want to live forewer!</p>
+                            </div>
+                        </div>
+                        <div class="col s5 m3">
+                            <p class="card-title">Rating: 975</p>
+                            <h4>90BTC <small>&nbsp;+7BTC</small></h4>
+                            <p>3 month</p>
+                        </div>
+                        <div class="col s12 buttons center-align">
+                            <a class="btn-modal-accept waves-effect waves-light btn green accent-4" href="#modal_accept"><i class="material-icons left">done</i> Accept</a>
+                            <a class="btn-modal-decline waves-effect waves-light btn red accent-2" href="#modal_decline"><i class="material-icons left">delete_forever</i> Decline</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div id="application-1" class="card">
-                <div class="row application-row">
-                    <div class="col s2">
-                        <img class="responsive-img" src="img/no-photo.jpg">
-                    </div>
-                    <div class="col s5 m7">
-                        <p class="card-title">John Smith</p>
-                        <div class="card-content">
-                            <p>Want to travel Canana</p>
+                <div id="application-1" class="card">
+                    <div class="row application-row">
+                        <div class="col s2">
+                            <img class="responsive-img" src="img/no-photo.jpg">
                         </div>
-                    </div>
-                    <div class="col s5 m3">
-                        <p class="card-title">Rating: 980</p>
-                        <h4>100BTC <small>&nbsp;+10BTC</small></h4>
-                        <p>2 days</p>
-                    </div>
-                    <div class="col s12 buttons center-align">
-                        <a class="btn-modal-accept waves-effect waves-light btn green accent-4" href="#modal_accept"><i class="material-icons left">done</i> Accept</a>
-                        <a class="btn-modal-decline waves-effect waves-light btn red accent-2" href="#modal_decline"><i class="material-icons left">delete_forever</i> Decline</a>
+                        <div class="col s5 m7">
+                            <p class="card-title">John Smith</p>
+                            <div class="card-content">
+                                <p>Want to travel Canana</p>
+                            </div>
+                        </div>
+                        <div class="col s5 m3">
+                            <p class="card-title">Rating: 980</p>
+                            <h4>100BTC <small>&nbsp;+10BTC</small></h4>
+                            <p>2 days</p>
+                        </div>
+                        <div class="col s12 buttons center-align">
+                            <a class="btn-modal-accept waves-effect waves-light btn green accent-4" href="#modal_accept"><i class="material-icons left">done</i> Accept</a>
+                            <a class="btn-modal-decline waves-effect waves-light btn red accent-2" href="#modal_decline"><i class="material-icons left">delete_forever</i> Decline</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div id="application-2" class="card">
-                <div class="row application-row">
-                    <div class="col s2">
-                        <img class="responsive-img" src="img/no-photo.jpg">
-                    </div>
-                    <div class="col s5 m7">
-                        <p class="card-title">Peter Norton</p>
-                        <div class="card-content">
-                            <p>Want to live forewer!</p>
+                <div id="application-2" class="card">
+                    <div class="row application-row">
+                        <div class="col s2">
+                            <img class="responsive-img" src="img/no-photo.jpg">
                         </div>
-                    </div>
-                    <div class="col s5 m3">
-                        <p class="card-title">Rating: 975</p>
-                        <h4>90BTC <small>&nbsp;+7BTC</small></h4>
-                        <p>3 month</p>
-                    </div>
-                    <div class="col s12 buttons center-align">
-                        <a class="btn-modal-accept waves-effect waves-light btn green accent-4" href="#modal_accept"><i class="material-icons left">done</i> Accept</a>
-                        <a class="btn-modal-decline waves-effect waves-light btn red accent-2" href="#modal_decline"><i class="material-icons left">delete_forever</i> Decline</a>
+                        <div class="col s5 m7">
+                            <p class="card-title">Peter Norton</p>
+                            <div class="card-content">
+                                <p>Want to live forewer!</p>
+                            </div>
+                        </div>
+                        <div class="col s5 m3">
+                            <p class="card-title">Rating: 975</p>
+                            <h4>90BTC <small>&nbsp;+7BTC</small></h4>
+                            <p>3 month</p>
+                        </div>
+                        <div class="col s12 buttons center-align">
+                            <a class="btn-modal-accept waves-effect waves-light btn green accent-4" href="#modal_accept"><i class="material-icons left">done</i> Accept</a>
+                            <a class="btn-modal-decline waves-effect waves-light btn red accent-2" href="#modal_decline"><i class="material-icons left">delete_forever</i> Decline</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
         <div id="order_book" class="col s12">
+
+            <div class="center-container">
 
 <h3>Lender</h3>
 <table>
@@ -384,6 +390,8 @@
 
         </tbody>
       </table>
+                
+</div>
 
         </div>
     </div>
