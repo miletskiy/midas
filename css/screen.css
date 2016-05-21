@@ -1,3 +1,10 @@
-h1 {
-	color: red;
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.main-test-logo {
+	color: #ffab00;
+	text-align: center;
 }
