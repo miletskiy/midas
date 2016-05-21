@@ -12,4 +12,20 @@ $(document).ready(function() {
       }
   })
   $('.modal-trigger').leanModal();
+  $('.modal-trigger-application-submitted').leanModal({
+      complete: function() {
+          window.location.href="borrower_profile.html";
+      }
+  });
+  $('.modal-application-submitted').click(function() {
+      window.location.href="borrower_profile.html";
+  });
+  $('.modal-trigger-lending-submitted').leanModal({
+      complete: function() {
+          window.location.href="lender_profile.html";
+      }
+  });
+  $('.modal-lending-submitted').click(function() {
+      window.location.href="lender_profile.html";
+  });
 });
