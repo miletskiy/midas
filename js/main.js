@@ -28,4 +28,13 @@ $(document).ready(function() {
   $('.modal-lending-submitted').click(function() {
       window.location.href="lender_profile.html";
   });
+
+  $('.lend_form').submit(function(event) {
+      event.preventDefault();
+      $('#submit_lend').openModal();
+  });
+  $('.borrow_form').submit(function(event) {
+      event.preventDefault();
+      $('#submit_borrow').openModal();
+  });
 });
