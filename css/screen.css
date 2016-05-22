@@ -8,6 +8,10 @@ body {
 	color: #424242;
 	text-align: center;
 }
+.main-description {
+	color: #bdbdbd;
+	text-align: center;
+}
 .btn-flat {
 	float: right;
 	padding-right: 10px;
@@ -39,8 +43,8 @@ form {
 }
 
 .application-row {
-    padding-top: 0.75rem;
-    padding-bottom: 0.75rem;
+	padding-top: 0.75rem;
+	padding-bottom: 0.75rem;
 }
 
 #borrower-profile-form .btn {
@@ -78,6 +82,6 @@ form {
 }
 
 .center-container {
-    max-width: 786px;
-    margin: 0 auto;
+	max-width: 786px;
+	margin: 0 auto;
 }
