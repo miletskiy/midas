@@ -12,7 +12,7 @@ $(document).ready(function() {
   // Look for changes in the value
    how_much_input.bind("propertychange change click keyup input paste", function(event){
       // If value has changed...
-      how_much = parseInt(how_much_input.val());
+      how_much = parseFloat(how_much_input.val());
 
       if (how_much !== 0 && period_days !== 0) {
 
@@ -30,6 +30,12 @@ $(document).ready(function() {
       if (how_much < 0) {
         how_much_input.val(0)
       }
+
+      // when value more than 1 char and first char is zero then clear first zero
+      if (how_much_input.val().length > 1 && how_much_input.val()[0] == "0") {
+        how_much_input.val(how_much_input.val().substr(1))
+      }
+
    });
 
   // helper function
